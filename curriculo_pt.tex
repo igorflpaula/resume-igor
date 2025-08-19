@@ -1,0 +1,118 @@
+% GitHub Repo and Documentation: https://github.com/celiobjunior/resume-template
+% Copyright © 2025 Celio B Junior. All rights reserved.
+% 
+% Licensed under the Apache License, Version 2.0 (the "License");
+% you may not use this file except in compliance with the License.
+% You may obtain a copy of the License at
+%
+%     http://www.apache.org/licenses/LICENSE-2.0
+%
+% This template follows best practices from README.md
+\documentclass[a4paper,10pt]{article}
+
+% --- PACKAGES ---
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[brazil]{babel} % Alterado para Português do Brasil
+\usepackage{geometry}
+\usepackage{parskip}
+\usepackage{hyperref}
+\usepackage{xurl}
+\usepackage{titlesec}
+\usepackage{textcomp}
+
+% --- CONFIGURATIONS ---
+\geometry{top=1.0cm, bottom=1.0cm, left=1.0cm, right=1.0cm}
+\pagestyle{empty}
+
+% PDF metadata - customize with your information
+\hypersetup{
+    pdftitle={CV Igor de Paula},
+    pdfauthor={Igor de Paula},
+    colorlinks=true,
+    linkcolor=black,
+    urlcolor=black,
+    citecolor=black,
+    bookmarksdepth=1 
+}
+
+\setcounter{secnumdepth}{0}
+
+\titleformat{\section}
+  {\Large\bfseries}
+  {}
+  {0em}
+  {}
+  [\titlerule\vspace{0.5ex}]
+
+% --- BEGIN DOCUMENT ---
+\begin{document}
+
+% --- HEADER SECTION ---
+\begin{center}
+    {\LARGE \textbf{Igor Francisco Lima de Paula}} \\ [0.1cm]
+    Poços de Caldas, Brasil {\textbullet}
+    Email: \href{mailto:igorfldepaula@gmail.com}{igorfldepaula@gmail.com} {\textbullet}
+    \href{https://www.linkedin.com/in/igor-fl-de-paula}{linkedin.com/in/igor-fl-de-paula} {\textbullet}
+    \href{https://github.com/igorflpaula}{github.com/igorflpaula}
+\end{center}
+
+% --- SECTIONS ---    
+\section{Experiência Profissional}
+    \subsection*{\texorpdfstring{
+        \textbf{Leveduca} \hfill Poços de Caldas, Brasil
+        }{
+            Leveduca -- Poços de Caldas, Brasil
+        }}
+    \textit{Desenvolvedor de Software Pleno \hfill Fev 2024 - Presente}
+        \begin{itemize} 
+            \item Desenvolvi features-chave do produto (Gamificação, OKRs, Sistema de Feedbacks) que agregaram valor e impulsionaram as vendas.
+            \item Otimizei processos do backend, reduzindo significativamente o tempo de execução de tarefas críticas.
+            \item Contribuí no desenvolvimento frontend com Vue.js, implementando interfaces de usuário dinâmicas e responsivas.
+            \item Gerenciei integrações com APIs RESTful externas e sistemas de negócio críticos, incluindo plataformas de CRM.
+        \end{itemize}
+    \textit{Desenvolvedor de Software Júnior \hfill Jul 2023 - Jan 2024}
+        \begin{itemize} 
+            \item Reestruturei o sistema de administração interno da empresa, melhorando significativamente a usabilidade e a eficiência da equipe.
+            \item Criei features de backend com PHP e Laravel e contribuí em tarefas de frontend com HTML, CSS e Vue.js.
+        \end{itemize}
+    \textit{Assistente de TI \hfill Dez 2022 - Jun 2023}
+        \begin{itemize} 
+            \item Reduzi o volume de chamados de suporte ao analisar proativamente incidentes recorrentes para identificar e resolver suas causas raiz.
+            \item Integrei APIs externas com sistemas proprietários para automatizar processos e expandir a funcionalidade da plataforma.
+        \end{itemize}
+        
+\section{Formação Acadêmica}
+    \subsection*{\texorpdfstring{
+        \textbf{Rocketseat} \hfill Remoto
+        }{
+        Rocketseat -- Remoto 
+        }}
+    \textit{MBA em Full Stack \hfill Out 2024 - Out 2025}
+    \subsection*{\texorpdfstring{
+        \textbf{IFSULDEMINAS} \hfill Poços de Caldas, Brasil
+        }{
+        IFSULDEMINAS -- Poços de Caldas, Brasil
+        }}
+    \textit{Bacharelado em Engenharia de Computação \hfill Jan 2017 - Dez 2023}
+
+\section{Atividades de Liderança} 
+    \subsection*{\texorpdfstring{
+        \textbf{Centro Acadêmico Thomas Adam} \hfill Poços de Caldas, Brasil
+        }{
+        Centro Acadêmico Thomas Adam -- Poços de Caldas, Brasil
+        }}
+    \textit{Presidente \hfill Nov 2021 - Out 2022}
+        \begin{itemize}
+            \item Defendi os direitos dos estudantes, implementando com sucesso um programa de meio-passe e uma linha de transporte exclusiva.
+            \item Coordenei o Torneio de E-Sports do Instituto Federal (TEIF) para promover a integração da comunidade e o trabalho em equipe.
+            \item Atuei como o principal mediador na resolução de conflitos entre os estudantes e a direção da instituição.
+        \end{itemize}
+
+\section{Competências}
+    \begin{itemize}
+        \item \textbf{Técnicas:} PHP, Laravel, JavaScript, TypeScript, NodeJS, VueJS, MySQL, Git, Scrum, Agile
+        \item \textbf{Idiomas:} Português (Nativo), Inglês (B1), Espanhol (A1)
+    \end{itemize}
+
+\end{document}
